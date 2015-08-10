@@ -1,0 +1,105 @@
+
+body {
+  background-color: black;
+  font-family: "futura-pt", sans-serif;
+}
+
+.main-img {
+  height: 800px;
+  z-index: 900;
+  position: absolute;
+}
+
+#wing {
+  z-index: 800;
+}
+
+#arm {
+}
+
+.circle {
+    width: 50px;
+    height: 50px;
+    -webkit-border-radius: 27px;
+    -moz-border-radius: 27px;
+    border-radius: 27px;
+    background-color: #333;
+    z-index: 1000;
+    position: absolute;
+    border-width: 2px;
+    border-color: white;
+    border-style: solid;
+}
+
+.circle:hover {
+    background-color: #aaa;
+}
+
+.pop-up-info {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+}
+
+.pop-up-container {
+  color: white;
+  z-index: 1000;
+  position: absolute;
+  width: 300px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  margin: 55px 10px 10px 225px;
+  border-left: solid white 2px;
+}
+
+
+.pop-up-title {
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  text-decoration: none;
+}
+
+.pop-up-line {
+  height: 30px;
+  margin-top: 10px;
+}
+
+a {
+  color:white;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:visited {
+    color: white;
+}
+
+.pop-up-title:visited {
+  color: white;
+}
+
+
+#circle-1 {
+    margin: 300px 0px 0px 200px;
+}
+
+#circle-2 {
+    margin: 300px 0px 0px 200px;
+}
+#circle-3 {
+    margin: 300px 0px 0px 200px;
+}
+#circle-4 {
+    margin: 300px 0px 0px 200px;
+}
+
+#circle-5 {
+    margin: 300px 0px 0px 200px;
+}
+#circle-6 {
+    margin: 300px 0px 0px 200px;
+}
