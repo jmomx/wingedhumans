@@ -1,0 +1,160 @@
+
+body {
+  background-color: black;
+  font-family: "futura-pt", sans-serif;
+  color: white;
+}
+
+
+.main-img {
+  height: 800px;
+  z-index: 900;
+  position: absolute;
+}
+
+#wing {
+  z-index: 950;
+  display: none;
+  opacity: .4;
+}
+
+#arm {
+}
+
+#title-area {
+ margin: 50px auto auto 50px;
+ position: absolute;
+ z-index: 1200;
+}
+
+#title {
+ text-transform: uppercase;
+ font-weight: 800;
+ font-size: 300%;
+}
+
+
+#subtitle {
+ font-weight: 300;
+}
+
+#intro {
+ width: 400px;
+ margin: 50px auto auto 0px;
+
+}
+
+.circle {
+    width: 50px;
+    height: 50px;
+    -webkit-border-radius: 27px;
+    -moz-border-radius: 27px;
+    border-radius: 27px;
+    background-color: #333;
+    z-index: 1000;
+    position: absolute;
+    border-width: 2px;
+    border-color: white;
+    border-style: solid;
+}
+
+.circle:hover {
+    background-color: #aaa;
+}
+
+.links-area {
+  position: absolute;
+  z-index: 1300;
+}
+
+.linebox {
+    /*background-color: #BCBCBC;*/
+    width: 100px;
+    height: 50px;
+    padding: 0; 
+    margin: 0
+}
+
+.line {
+    width: 112px;
+    height: 47px;
+    border-bottom: 1px solid red;
+    -webkit-transform:
+        translateY(-20px)
+        translateX(5px)
+        rotate(27deg); 
+    position: absolute;
+    /* top: -20px; */
+}
+
+.pop-up-info {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+}
+
+.pop-up-container {
+  color: white;
+  z-index: 1000;
+  position: absolute;
+  width: 280px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  margin: 55px 10px 10px 225px;
+  border-left: solid white 2px;
+}
+
+
+.pop-up-title {
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  text-decoration: none;
+}
+
+.pop-up-line {
+  height: 30px;
+  margin-top: 10px;
+}
+
+a {
+  color:white;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:visited {
+    color: white;
+}
+
+.pop-up-title:visited {
+  color: white;
+}
+
+
+#circle-1 {
+    margin: 350px 0px 0px 200px;
+}
+
+#circle-2 {
+    margin: 350px 0px 0px 500px;
+}
+#circle-3 {
+    margin: 450px 0px 0px 350px;
+}
+#circle-4 {
+    margin: 450px 0px 0px 650px;
+}
+
+#circle-5 {
+    margin: 375px 0px 0px 975px;
+}
+#circle-6 {
+    margin: 300px 0px 0px 900px;
+}
+#circle-7  {
+    margin: 450px 0px 0px 900px;
+}

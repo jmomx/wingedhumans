@@ -5,11 +5,12 @@
 
 $(document).ready(function() {
   $("#circle-1").hover( swapPhoto, function() {})
-
+  $("#bg-sound")[0].volume = .1;
 });
 
 
 function swapPhoto() {
+  $("#bg-sound")[0].play();
   setTimeout(function() { $("#wing").toggle() }, 100);
   setTimeout(function() { $("#wing").toggle() }, 300);
   setTimeout(function() { $("#wing").toggle() }, 500);
