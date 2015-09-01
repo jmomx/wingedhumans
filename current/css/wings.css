@@ -3,6 +3,7 @@ body {
   background-color: black;
   font-family: "futura-pt", sans-serif;
   color: white;
+  min-width: 600;
 }
 
 
@@ -23,8 +24,9 @@ body {
 
 #title-area {
  margin: 50px auto auto 50px;
- position: absolute;
+ position: fixed;
  z-index: 1200;
+ min-width: 600;
 }
 
 #title {
@@ -50,8 +52,8 @@ body {
     -webkit-border-radius: 27px;
     -moz-border-radius: 27px;
     border-radius: 27px;
-    background-color: #333;
-    z-index: 1000;
+    background-color: rgba(0,0,0,.5);
+    z-index: 800;
     position: absolute;
     border-width: 2px;
     border-color: white;
@@ -59,7 +61,7 @@ body {
 }
 
 .circle:hover {
-    background-color: #aaa;
+    background-color: rgba(200,200,200,.5);
 }
 
 .links-area {
@@ -71,7 +73,7 @@ body {
     /*background-color: #BCBCBC;*/
     width: 100px;
     height: 50px;
-    padding: 0; 
+    padding: 0;
     margin: 0
 }
 
@@ -79,11 +81,11 @@ body {
     width: 112px;
     height: 47px;
     border-bottom: 1px solid red;
-    -webkit-transform:
+    transform:
         translateY(-20px)
         translateX(5px)
-        rotate(27deg); 
-    position: absolute;
+        rotate(27deg);
+    position: fixed;
     /* top: -20px; */
 }
 
@@ -97,12 +99,6 @@ body {
   color: white;
   z-index: 1000;
   position: absolute;
-  width: 280px;
-  padding-left: 10px;
-  padding-bottom: 10px;
-  padding-right: 10px;
-  margin: 55px 10px 10px 225px;
-  border-left: solid white 2px;
 }
 
 
@@ -136,25 +132,25 @@ a:visited {
 
 
 #circle-1 {
-    margin: 350px 0px 0px 200px;
+    margin: 410px 0px 0px 200px;
 }
 
 #circle-2 {
-    margin: 350px 0px 0px 500px;
+    margin: 450px 0px 0px 500px;
 }
 #circle-3 {
-    margin: 450px 0px 0px 350px;
+    margin: 600px 0px 0px 350px;
 }
 #circle-4 {
-    margin: 450px 0px 0px 650px;
+    margin: 600px 0px 0px 650px;
 }
 
 #circle-5 {
-    margin: 375px 0px 0px 975px;
+    margin: 475px 0px 0px 1050px;
 }
 #circle-6 {
-    margin: 300px 0px 0px 900px;
+    margin: 400px 0px 0px 900px;
 }
 #circle-7  {
-    margin: 450px 0px 0px 900px;
+    margin: 630px 0px 0px 1000px;
 }
