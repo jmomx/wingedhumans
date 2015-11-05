@@ -1,0 +1,171 @@
+
+body {
+  background-color: black;
+  font-family: "Playfair Display", serif;
+  color: white;
+  min-width: 600;
+}
+
+
+.main-img {
+  height: 800px;
+  z-index: 900;
+  position: absolute;
+}
+
+#wing {
+  z-index: 950;
+  display: none;
+  opacity: .4;
+}
+
+#arm {
+}
+
+#title-area {
+ margin: 50px auto auto 50px;
+ position: fixed;
+ z-index: 1200;
+ min-width: 600;
+}
+
+#title {
+ font-weight: 900;
+ font-size: 300%;
+}
+
+
+#subtitle {
+ font-weight: 400;
+}
+
+#intro {
+ width: 400px;
+ margin: 50px auto auto 0px;
+
+}
+
+.circle {
+    width: 50px;
+    height: 50px;
+    -webkit-border-radius: 27px;
+    -moz-border-radius: 27px;
+    border-radius: 27px;
+    background-color: rgba(0,0,0,.5);
+    z-index: 800;
+    position: absolute;
+    border-width: 2px;
+    border-color: white;
+    border-style: solid;
+}
+
+.circle:hover {
+    background-color: rgba(200,200,200,.5);
+}
+
+.links-area {
+  position: absolute;
+  z-index: 1300;
+}
+
+.linebox {
+    /*background-color: #BCBCBC;*/
+    width: 100px;
+    height: 50px;
+    padding: 0;
+    margin: 0
+}
+
+.line {
+    width: 112px;
+    height: 47px;
+    border-bottom: 1px solid red;
+    transform:
+        translateY(-20px)
+        translateX(5px)
+        rotate(27deg);
+    position: fixed;
+    /* top: -20px; */
+}
+
+.pop-up-info {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+}
+
+.pop-up-container {
+  color: white;
+  z-index: 1000;
+  position: absolute;
+}
+
+
+.pop-up-title {
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  text-decoration: none;
+}
+
+.pop-up-line {
+  height: 30px;
+  margin-top: 10px;
+}
+
+a {
+  color:white;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:visited {
+    color: white;
+}
+
+.pop-up-title:visited {
+  color: white;
+}
+
+
+#circle-1 {
+    margin: 410px 0px 0px 200px;
+}
+
+#circle-2 {
+    margin: 450px 0px 0px 500px;
+}
+#circle-3 {
+    margin: 600px 0px 0px 350px;
+}
+#circle-4 {
+    margin: 600px 0px 0px 650px;
+}
+
+#circle-5 {
+    margin: 475px 0px 0px 1050px;
+}
+#circle-6 {
+    margin: 400px 0px 0px 900px;
+}
+#circle-7  {
+    margin: 630px 0px 0px 1000px;
+}
+
+#mute-button-container{
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    z-index: 2000;
+}
+
+.audio-icon {
+  height: 40px;
+  width: 40px;
+}
+
+#mute {
+  display: none;
+}
