@@ -25,6 +25,23 @@ $(document).ready(function() {
   for (i = 1; i < 8; i++)  {
      drawlink(links[i][0],"circle-" + i.toString(),links[i][1], links[i][2], i);
   }
+  // set up the mute button
+  mutebutton = $("#mute-button-container").click(function() {
+    audioicon = $("#audio")
+    muteicon = $("#mute")
+    if (muteicon.css("display") == "none") {
+      //audio isn't muted, so mute it
+      $("#bg-sound")[0].volume = 0;
+      audioicon.hide()
+      muteicon.show()
+    } else {
+      //audio is muted, so play sound
+      $("#bg-sound")[0].volume = .1;
+      muteicon.hide()
+      audioicon.show()
+    }
+  });
+
 });
 
 
@@ -40,6 +57,7 @@ function swapPhoto() {
 
 function drawlink(above, id, text, link, zorderoff) {
   center = $("#" + id);
+
   center.after("<div class='pop-up-container'> <a target='_blank' href='"
                + link + "'>" + text +  " </a>  </div>");
   linkcont = center.next();
